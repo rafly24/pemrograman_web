@@ -1,0 +1,23 @@
+@import url("sections/navbar.css");
+@import url("sections/home.css");
+@import url("sections/about.css");
+@import url("sections/portfolio.css");
+@import url("sections/contact.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --primary-color:#081420;
+  --color-white:#ffffff;
+  --secondary-color:#1B263B;
+  --raleway:"Raleway",serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f1624;
+  color: var(--color-white);
+  margin: 0; 
+}
